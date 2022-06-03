@@ -46,7 +46,7 @@ function configuration() {
       "TOS=1144445555",
       "USUARIO=DEMO500",
       "CLAVE=DEMO500",
-      "TEXTO=Estimado VAR1, le recordamos que hoy a las VAR2, tiene una cita en VAR3 con el médico de admisión del PMHA"
+      "TEXTO=XXXX"
     ],
     smsMasivo_PROD    : [  
       "TOS=VAR1",
