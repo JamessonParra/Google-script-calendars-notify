@@ -268,7 +268,7 @@ function sendWhatsapp(phoneTo)
                       method: 'POST',
                       headers: {  Authorization: 'Basic ' + Utilities.base64Encode(config.twilioAccountSID + ':' + config.twilioAuthToken)  },
                       payload: {
-                                  To  : "whatsapp:+phoneTo.toString(),
+                                  To  : "whatsapp:"+phoneTo.toString(),
                                   Body: "Testing desde el "+config.twilioPhone+" Google Sheet",
                                   From: "whatsapp:"+config.twilioPhone
                       },
